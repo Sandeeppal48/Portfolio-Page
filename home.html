@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Pal - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        header img {
+            width: 50px;
+            height: 50px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .hero {
+            background: url('your-welcoming-banner.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #FF6600;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .section {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .skills, .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .skill, .project {
+            background: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .quotes {
+            font-style: italic;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        a {
+            color: #FF6600;
+        }
+
+        .icons {
+            width: 24px;
+            height: 24px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="sandy.jpg" alt="Logo">
+            <strong>Sandeep Pal</strong>
+        </div>
+        <nav>
+            <a href="aboutme.html">About</a>
+            <a href="myskill.html">Skills</a>
+            <a href="work.html">My Work</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Sandeep Pal</h1>
+            <p>Currently Learning Java and Its Concepts</p>
+            <p>Software Engineer | Enthusiast in Machine Learning</p>
+            <p>“I believe that Machine Learning has the potential to revolutionize the future, and I am passionate about exploring its endless possibilities.”</p>
+            <a href="work.html" class="btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <section class="section about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Sandeep Pal from Haridwar, currently living in Dehradun, Uttarakhand, India. I recently completed my MCA after a B.Sc. in Mathematics. My schooling was from Saharanpur, UP, India (2015-2019).</p>
+        <a href="about.html">Learn More</a>
+    </section>
+
+    <section class="section skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <h3>Web Development</h3>
+            <img src="web-dev-icon.png" alt="Web Development Icon" class="icons">
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill">
+            <h3>Programming Languages</h3>
+            <img src="coding-icon.png" alt="Programming Icon" class="icons">
+            <p>C, Java</p>
+        </div>
+        <div class="skill">
+            <h3>Database Management</h3>
+            <img src="dbms-icon.png" alt="DBMS Icon" class="icons">
+            <p>DBMS, SQL</p>
+        </div>
+    </section>
+
+    <section class="section projects">
+        <h2>Featured Projects</h2>
+        <div class="project">
+            <h3>SMS Spam Detection</h3>
+            <p>Using Machine Learning with Python</p>
+        </div>
+        <div class="project">
+            <h3>Music Website</h3>
+            <p>Developed using HTML and CSS</p>
+        </div>
+        <div class="project">
+            <h3>Restaurant Landing Page</h3>
+            <p>Designed with HTML, CSS, and JavaScript</p>
+        </div>
+    </section>
+
+    <section class="section quotes">
+        <p>"Continuous learning is the minimum requirement for success in any field." - Sandeep Pal</p>
+    </section>
+
+    <section class="section contact">
+        <h2>Contact Me</h2>
+        <p>Phone: +91 9870775881</p>
+        <p>Email: <a href="mailto:sandysandy987077@gmail.com">sandysandy987077@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sandeep Pal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
